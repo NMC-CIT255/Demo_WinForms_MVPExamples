@@ -19,7 +19,7 @@ namespace Demo_WinForms_MVPExamples.Presenters
 
         public void CalculateArea()
         {
-            Rectangle rectangle = new Rectangle();
+            RectangleShape rectangle = new RectangleShape();
 
             rectangle.Length = double.Parse(_rectangleView.LengthText);
             rectangle.Width = double.Parse(_rectangleView.WidthText);

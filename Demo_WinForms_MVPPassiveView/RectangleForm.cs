@@ -12,9 +12,9 @@ using Demo_WinForms_MVPExamples.Views;
 
 namespace Demo_WinForms_MVPExamples
 {
-    public partial class ShapesForm : Form, IRectangle
+    public partial class RectangleForm : Form, IRectangleView
     {
-        public ShapesForm()
+        public RectangleForm()
         {
             InitializeComponent();
         }

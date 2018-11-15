@@ -1,6 +1,6 @@
 ﻿namespace Demo_WinForms_MVPExamples
 {
-    partial class ShapesForm
+    partial class RectangleForm
     {
         /// <summary>
         /// Required designer variable.

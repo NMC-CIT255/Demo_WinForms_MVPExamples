@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Demo_WinForms_MVPExamples.Views
 {
-    public interface IRectangle
+    public interface IRectangleView
     {
         string LengthText { get; set; }
         string WidthText { get; set; }
