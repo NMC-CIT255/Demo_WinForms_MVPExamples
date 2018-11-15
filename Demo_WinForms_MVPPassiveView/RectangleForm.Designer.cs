@@ -95,7 +95,7 @@
             this.txt_Area.Size = new System.Drawing.Size(100, 22);
             this.txt_Area.TabIndex = 6;
             // 
-            // ShapesForm
+            // RectangleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -107,8 +107,8 @@
             this.Controls.Add(this.txt_Length);
             this.Controls.Add(this.lbl_Width);
             this.Controls.Add(this.lbl_Length);
-            this.Name = "ShapesForm";
-            this.Text = "Form1";
+            this.Name = "RectangleForm";
+            this.Text = "Rectangle";
             this.ResumeLayout(false);
             this.PerformLayout();
 
