@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Demo_WinForms_MVPExamples.Views
+namespace Demo_WinForms_MVPSupervisingController.Views
 {
     public interface IRectangleView
     {

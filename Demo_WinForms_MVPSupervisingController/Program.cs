@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Demo_WinForms_MVPSupervisingController.Models;
+using Demo_WinForms_MVPSupervisingController.Presenters;
+
 
 namespace Demo_WinForms_MVPSupervisingController
 {
@@ -16,7 +19,11 @@ namespace Demo_WinForms_MVPSupervisingController
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RectangleForm());
+
+            RectangleShapePresenter rectangleShapePresenter = new RectangleShapePresenter();
+
+
+            //Application.Run(new RectangleShapeForm());
         }
     }
 }

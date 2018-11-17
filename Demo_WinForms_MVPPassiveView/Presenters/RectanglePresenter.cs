@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Demo_WinForms_MVPExamples.Models;
-using Demo_WinForms_MVPExamples.Views;
+using Demo_WinForms_MVPSupervisingController.Models;
+using Demo_WinForms_MVPSupervisingController.Views;
 
-namespace Demo_WinForms_MVPExamples.Presenters
+namespace Demo_WinForms_MVPSupervisingController.Presenters
 {
     public class RectanglePresenter
     {

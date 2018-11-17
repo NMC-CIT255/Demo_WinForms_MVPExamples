@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_WinForms_MVPPassiveView", "Demo_WinForms_MVPPassiveView\Demo_WinForms_MVPPassiveView.csproj", "{2E1587C4-1E12-4496-AD0C-1D65FDA7362E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_WinForms_MVPSupervisingController", "Demo_WinForms_MVPSupervisingController\Demo_WinForms_MVPSupervisingController.csproj", "{DF264DFF-8669-4978-ADFA-4A7E9312F415}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2E1587C4-1E12-4496-AD0C-1D65FDA7362E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E1587C4-1E12-4496-AD0C-1D65FDA7362E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E1587C4-1E12-4496-AD0C-1D65FDA7362E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF264DFF-8669-4978-ADFA-4A7E9312F415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF264DFF-8669-4978-ADFA-4A7E9312F415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF264DFF-8669-4978-ADFA-4A7E9312F415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF264DFF-8669-4978-ADFA-4A7E9312F415}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

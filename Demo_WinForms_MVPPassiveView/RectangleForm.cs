@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Demo_WinForms_MVPExamples.Presenters;
-using Demo_WinForms_MVPExamples.Views;
+using Demo_WinForms_MVPSupervisingController.Presenters;
+using Demo_WinForms_MVPSupervisingController.Views;
 
-namespace Demo_WinForms_MVPExamples
+namespace Demo_WinForms_MVPSupervisingController
 {
     public partial class RectangleForm : Form, IRectangleView
     {

@@ -1,6 +1,6 @@
 ﻿namespace Demo_WinForms_MVPSupervisingController
 {
-    partial class RectangleForm
+    partial class RectangleShapeForm
     {
         /// <summary>
         /// Required designer variable.
