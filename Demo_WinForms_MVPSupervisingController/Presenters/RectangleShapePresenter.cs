@@ -15,13 +15,20 @@ namespace Demo_WinForms_MVPSupervisingController.Presenters
 
         public RectangleShapePresenter()
         {
+            IntializeApp();
+        }
+
+        private void IntializeApp()
+        {
             _rectangleShape = new RectangleShape();
             _rectangleShapeView = new RectangleShapeForm();
             _rectangleShapeView.RectangleShape = _rectangleShape;
 
             _rectangleShapeView.CalculateAreaPressed += CalculateAreaPressed;
 
+            _rectangleShapeView.ResetForm();
             _rectangleShapeView.ShowDialog();
+
         }
 
         private void CalculateAreaPressed(object sender, EventArgs e)

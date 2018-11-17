@@ -41,6 +41,13 @@ namespace Demo_WinForms_MVPSupervisingController
             }
         }
 
+        public void ResetForm()
+        {
+            txt_Length.Text = "";
+            txt_Width.Text = "";
+            txt_Area.Text = "";
+        }
+
         public event EventHandler CalculateAreaPressed;
 
         private void btn_CalculateArea_Click(object sender, EventArgs e)
