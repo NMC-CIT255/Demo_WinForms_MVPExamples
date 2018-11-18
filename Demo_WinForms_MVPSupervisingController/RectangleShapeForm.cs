@@ -17,9 +17,10 @@ namespace Demo_WinForms_MVPSupervisingController
     {
         private RectangleShape _rectangleShape;
 
-        public RectangleShapeForm()
+        public RectangleShapeForm(RectangleShape rectangleShape)
         {
             InitializeComponent();
+            _rectangleShape = rectangleShape;
         }
 
         public RectangleShape RectangleShape

@@ -21,9 +21,6 @@ namespace Demo_WinForms_MVPSupervisingController
             Application.SetCompatibleTextRenderingDefault(false);
 
             RectangleShapePresenter rectangleShapePresenter = new RectangleShapePresenter();
-
-
-            //Application.Run(new RectangleShapeForm());
         }
     }
 }

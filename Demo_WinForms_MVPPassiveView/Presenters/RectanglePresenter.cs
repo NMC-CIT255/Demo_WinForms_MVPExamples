@@ -24,7 +24,7 @@ namespace Demo_WinForms_MVPSupervisingController.Presenters
             rectangle.Length = double.Parse(_rectangleView.LengthText);
             rectangle.Width = double.Parse(_rectangleView.WidthText);
 
-            _rectangleView.AreaText = (rectangle.Length * rectangle.Width).ToString();
+            _rectangleView.AreaText = rectangle.Area().ToString();
         }
     }
 }
